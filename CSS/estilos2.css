@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* CSS Document */
+p{text-align: justify-all;
+	font-size:13px;
+}
+
+header{text-align: center;
+text-transform: uppercase;
+background-color:black;
+color: floralwhite;	
+height: 40px;
+font-size: 15pt;
+}
+
+.botones{display: flex;
+justify-content: center;
+	align-items: center;
+border-bottom-color: #4D503F;
+}
+
+footer{align-content: center; 
+text-align: center;
+background-color: #BABEA7;
+height: 40px;	
+font-size: 10pt;	
+}
+
+h1{font-size: 40pt;
+color: aliceblue;}
+h5{color:floralwhite;}
+h6{color:darkslategrey;}
+
+.jumbotron.text-center {
+    background-image: url("fondoindex.jpg");
+    background-size:contain;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+

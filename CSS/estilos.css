@@ -1,0 +1,33 @@
+@charset "utf-8";
+p{text-align: center;
+	font-size:13px;
+}
+
+header{text-align: center;
+text-transform: uppercase;
+background-color:black;
+height: 40px;
+font-size: 15pt;
+	color: floralwhite;
+}
+
+.botones{display: flex;
+justify-content: center;
+	align-items: center;
+border-bottom-color: #4D503F;
+}
+
+footer{align-content: center; 
+text-align: center;
+background-color: #BABEA7;
+height: 40px;	
+font-size: 10pt;	
+}
+
+h1{font-size: 40pt;}
+
+.imagen:hover{ border:medium solid #4D503F; opacity: 50%; transform: scale(1.05); }
+.jumbotron.text-center {
+    background-image: url("fondotitulo.jpg");
+    background-size: cover;
+}
