@@ -37,4 +37,16 @@ h6{color:darkslategrey;}
 	padding-left: 150px;
 	padding-right: 150px;
 }
+.card:hover {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
 
